@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "FastAPI ToDo App"
+name = "FastAPI Studies App"
 version = "0.1.0"
 description = "A study of fastAPI framework"
 authors = ["Vicente Marçal <vicente.marcal@gmail.com>"]
@@ -9,6 +9,8 @@ license = "GNU General Public License v3 or lather  (GPLv3+)"
 python = "^3.9"
 uvicorn = "^0.13.4"
 fastapi = "^0.65.1"
+asyncpg = "^0.22.0"
+tortoise-orm = "^0.17.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
